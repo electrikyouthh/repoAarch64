@@ -591,6 +591,17 @@ Filename: dists/termux/extras/binary-aarch64/command-not-found_1.25_aarch64.deb
 Size: 17816
 SHA256: bb5c15acccf9af1b5d317d6935e7d228eb29d480d19da7b0b631fb45e7ab5094
 
+Package: command-not-found
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.26
+Description: Suggest installation of packages in interactive shell sessions
+Homepage: https://termux.com
+Filename: dists/termux/extras/binary-aarch64/command-not-found_1.26_aarch64.deb
+Size: 17928
+SHA256: 40336d0f88eb23ea946dde6fa0a1aecee2ae35f5930555753ccd7524c5752278
+
 Package: coreutils
 Architecture: aarch64
 Installed-Size: 1484
@@ -1737,6 +1748,18 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-aarch64/gnushogi_1.4.2-1_aarch64.deb
 Size: 59224
 SHA256: 9ea642264be0314e040a08c2bd7c99c50510b68396a8bc4248687500ef6f999f
+
+Package: gnutls
+Architecture: aarch64
+Installed-Size: 1208
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.15-1
+Description: Commandline utilities for interfacing with the gnutls library
+Homepage: https://www.gnutls.org/
+Depends: libgnutls
+Filename: dists/termux/extras/binary-aarch64/gnutls_3.5.15-1_aarch64.deb
+Size: 200760
+SHA256: 6a72355eda52f237b319f1d84d4fcce8124d04532d2ca26f48871ad634dc03b5
 
 Package: gnutls
 Architecture: aarch64
@@ -3155,6 +3178,18 @@ Filename: dists/termux/extras/binary-aarch64/libgcrypt-dev_1.8.1-1_aarch64.deb
 Size: 18268
 SHA256: 0410f55553f2301739fd69eb740f98b546ae882eba1cc69b685148b4968a2e73
 
+Package: libgcrypt-dev
+Architecture: aarch64
+Installed-Size: 116
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.1-2
+Description: Development files for libgcrypt
+Homepage: https://www.gnu.org/software/libgcrypt/
+Depends: libgcrypt,libgpg-error-dev
+Filename: dists/termux/extras/binary-aarch64/libgcrypt-dev_1.8.1-2_aarch64.deb
+Size: 18284
+SHA256: 7b1824198c38f6acf15d8bfa32910a638dd3bb1226058b2e18c6afda5108dbbf
+
 Package: libgcrypt
 Architecture: aarch64
 Installed-Size: 736
@@ -3166,6 +3201,18 @@ Depends: libgpg-error
 Filename: dists/termux/extras/binary-aarch64/libgcrypt_1.8.1-1_aarch64.deb
 Size: 272072
 SHA256: 5af75c4f89af9740e0f4f0cae1803958b74a883c39b9bc32f32faee2b6914c6d
+
+Package: libgcrypt
+Architecture: aarch64
+Installed-Size: 736
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.1-2
+Description: General purpose cryptographic library based on the code from GnuPG
+Homepage: https://www.gnu.org/software/libgcrypt/
+Depends: libgpg-error
+Filename: dists/termux/extras/binary-aarch64/libgcrypt_1.8.1-2_aarch64.deb
+Size: 271728
+SHA256: 07fdd282cc0d3778784706b1223c4360bfc5fb74ab97342f54b80c48f9565b11
 
 Package: libgd-dev
 Architecture: aarch64
@@ -3277,6 +3324,18 @@ Package: libgnutls-dev
 Architecture: aarch64
 Installed-Size: 4568
 Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.15-1
+Description: Development files for libgnutls
+Homepage: https://www.gnutls.org/
+Depends: libgnutls,libidn-dev, libnettle-dev
+Filename: dists/termux/extras/binary-aarch64/libgnutls-dev_3.5.15-1_aarch64.deb
+Size: 162844
+SHA256: 6bf4149cfc90c18b60bca62860ac8cc23cd9da9fb1912763e14fc36503d1007c
+
+Package: libgnutls-dev
+Architecture: aarch64
+Installed-Size: 4568
+Maintainer: Fredrik Fornwall @fornwall
 Version: 3.5.15
 Description: Development files for libgnutls
 Homepage: https://www.gnutls.org/
@@ -3284,6 +3343,18 @@ Depends: libgnutls
 Filename: dists/termux/extras/binary-aarch64/libgnutls-dev_3.5.15_aarch64.deb
 Size: 162860
 SHA256: d1dc16da8dbf727c7a4fed72913f63df9d7ab6fedc9d2352659605454c63321d
+
+Package: libgnutls
+Architecture: aarch64
+Installed-Size: 1168
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.15-1
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+Homepage: https://www.gnutls.org/
+Depends: libgmp, libnettle, ca-certificates, libidn, libunistring
+Filename: dists/termux/extras/binary-aarch64/libgnutls_3.5.15-1_aarch64.deb
+Size: 326900
+SHA256: 9048804081f711dfdf9c6897cdb7a7bcf22aae7a65f8e27523d0fa0567802bae
 
 Package: libgnutls
 Architecture: aarch64
@@ -3355,6 +3426,18 @@ Filename: dists/termux/extras/binary-aarch64/libgrpc-dev_1.4.2_aarch64.deb
 Size: 86900
 SHA256: 4052262f95eb563443c35d4bbed260fb6d3582f833a09140f9a3f32daa13235c
 
+Package: libgrpc-dev
+Architecture: aarch64
+Installed-Size: 992
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.4.5
+Description: Development files for libgrpc
+Homepage: https://grpc.io/
+Depends: libgrpc
+Filename: dists/termux/extras/binary-aarch64/libgrpc-dev_1.4.5_aarch64.deb
+Size: 86896
+SHA256: 3c4b5283f8fd33a1431e354cc5d0c3223aa90cc27fa6e08935ddaff094ce366e
+
 Package: libgrpc
 Architecture: aarch64
 Installed-Size: 12428
@@ -3366,6 +3449,18 @@ Depends: openssl, protobuf, c-ares
 Filename: dists/termux/extras/binary-aarch64/libgrpc_1.4.2_aarch64.deb
 Size: 868348
 SHA256: 8f607b12def9f1350c48d8424b59831981649daa24fc50b5d35ed9cd3466627d
+
+Package: libgrpc
+Architecture: aarch64
+Installed-Size: 12428
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 1.4.5
+Description: High performance, open source, general RPC framework that puts mobile and HTTP/2 first
+Homepage: https://grpc.io/
+Depends: openssl, protobuf, c-ares
+Filename: dists/termux/extras/binary-aarch64/libgrpc_1.4.5_aarch64.deb
+Size: 866972
+SHA256: 4185729e3268b86f94b40685e6ce657153e06401270d83e790bd88ef802bc6e0
 
 Package: libicu-dev
 Architecture: aarch64
@@ -4191,6 +4286,18 @@ Filename: dists/termux/extras/binary-aarch64/libprotobuf-dev_3.3.2-2_aarch64.deb
 Size: 278116
 SHA256: 50f7d202a9dd8a8e19f776e4775fb73f1bd6cdab74fe4d97325401b1b6b86c33
 
+Package: libprotobuf-dev
+Architecture: aarch64
+Installed-Size: 2596
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.1
+Description: Development files for libprotobuf
+Homepage: https://github.com/google/protobuf
+Depends: libprotobuf
+Filename: dists/termux/extras/binary-aarch64/libprotobuf-dev_3.4.1_aarch64.deb
+Size: 283108
+SHA256: 9c18467428b9fbe0d0a66454f4596b4a673e117b6edf09f66eef2733103d1c15
+
 Package: libprotobuf
 Architecture: aarch64
 Installed-Size: 2496
@@ -4202,6 +4309,18 @@ Conflicts: protobuf (<= 3.0.0)
 Filename: dists/termux/extras/binary-aarch64/libprotobuf_3.3.2-2_aarch64.deb
 Size: 471068
 SHA256: eb8f5d344c1b3e1c122786a0a17ca425f2db8c0b4c1071c5d611e94458a0491e
+
+Package: libprotobuf
+Architecture: aarch64
+Installed-Size: 2656
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.1
+Description: Protocol buffers C++ library
+Homepage: https://github.com/google/protobuf
+Conflicts: protobuf (<= 3.0.0)
+Filename: dists/termux/extras/binary-aarch64/libprotobuf_3.4.1_aarch64.deb
+Size: 468088
+SHA256: 78d8ce6e120b143c51bded4ad60f78f1c5cdd29e78cf9b85db2643a3b160fa28
 
 Package: libpulseaudio-dev
 Architecture: aarch64
@@ -5016,6 +5135,18 @@ SHA256: e2b94d865c8df1ab9f96636f367702766db5922fc3ec8e82f2a5587f953e45e8
 
 Package: ltrace
 Architecture: aarch64
+Installed-Size: 356
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.7.3.20160411-1
+Description: Tracks runtime library calls in dynamically linked programs
+Homepage: http://www.ltrace.org/
+Depends: elfutils
+Filename: dists/termux/extras/binary-aarch64/ltrace_0.7.3.20160411-1_aarch64.deb
+Size: 83520
+SHA256: 83b0f5062a4975e85fc4342799a62d8bf42ad7b4d433e55117b6acbd80174eaf
+
+Package: ltrace
+Architecture: aarch64
 Installed-Size: 416
 Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
 Version: 0.7.3.20160411
@@ -5226,6 +5357,17 @@ Filename: dists/termux/extras/binary-aarch64/micro_1.3.1_aarch64.deb
 Size: 2555148
 SHA256: a7fe21517446d9fd846fe6d9c6220babbeb4cfe71fcee76420dd814ff4f652ff
 
+Package: micro
+Architecture: aarch64
+Installed-Size: 11860
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2
+Description: Modern and intuitive terminal-based text editor
+Homepage: https://micro-editor.github.io/
+Filename: dists/termux/extras/binary-aarch64/micro_1.3.2_aarch64.deb
+Size: 2699536
+SHA256: f99a45c88aa16626eb0ce2f433065ed15f7c916e07c00c79c7c23291593f6cfc
+
 Package: minicom
 Architecture: aarch64
 Installed-Size: 284
@@ -5284,6 +5426,18 @@ Depends: libandroid-support, libprotobuf, ncurses, openssl, openssh, libutil
 Filename: dists/termux/extras/binary-aarch64/mosh_1.3.2-1_aarch64.deb
 Size: 162788
 SHA256: c2dea23d26102f05e1e2b42212b135f90bc958caadb7528a005cd3b46df8f011
+
+Package: mosh
+Architecture: aarch64
+Installed-Size: 876
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.2-2
+Description: Mobile shell that supports roaming and intelligent local echo
+Homepage: https://mosh.org
+Depends: libandroid-support, libprotobuf, ncurses, openssl, openssh, libutil
+Filename: dists/termux/extras/binary-aarch64/mosh_1.3.2-2_aarch64.deb
+Size: 159556
+SHA256: 5140fdaa2dae546396f0ca9ffc21e2161b6c9896961976137d94c212b4b6e8a7
 
 Package: mosquitto
 Architecture: aarch64
@@ -5608,6 +5762,17 @@ Filename: dists/termux/extras/binary-aarch64/nginx_1.12.1_aarch64.deb
 Size: 282088
 SHA256: 919d83c30999026a6111a6080972f7476d9813431680f4fd92cd76a2221dd826
 
+Package: ninja
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.8.2
+Description: A small build system with a focus on speed
+Homepage: https://ninja-build.org
+Filename: dists/termux/extras/binary-aarch64/ninja_1.8.2_aarch64.deb
+Size: 46268
+SHA256: 54547b6ffc6fe50f8e0399d261a1f8991d145cc03275883ed40f4c6858043a6a
+
 Package: nmap
 Architecture: aarch64
 Installed-Size: 23796
@@ -5624,6 +5789,18 @@ Package: nodejs-current-dev
 Architecture: aarch64
 Installed-Size: 820
 Maintainer: Fredrik Fornwall @fornwall
+Version: 8.4.0-1
+Description: Development files for nodejs-current
+Homepage: https://nodejs.org/
+Depends: nodejs-current
+Filename: dists/termux/extras/binary-aarch64/nodejs-current-dev_8.4.0-1_aarch64.deb
+Size: 121304
+SHA256: 33a8f94dacf86cd4b6d8cd430914025b444ebcec1c2d49589c67995a48613302
+
+Package: nodejs-current-dev
+Architecture: aarch64
+Installed-Size: 820
+Maintainer: Fredrik Fornwall @fornwall
 Version: 8.4.0
 Description: Development files for nodejs-current
 Homepage: https://nodejs.org/
@@ -5631,6 +5808,19 @@ Depends: nodejs-current
 Filename: dists/termux/extras/binary-aarch64/nodejs-current-dev_8.4.0_aarch64.deb
 Size: 121288
 SHA256: 02df6ff2a2c95fa3f59285634fc480404e77bdb204448f55247545169910cac6
+
+Package: nodejs-current
+Architecture: aarch64
+Installed-Size: 41036
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.4.0-1
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+Depends: openssl, c-ares
+Conflicts: nodejs
+Filename: dists/termux/extras/binary-aarch64/nodejs-current_8.4.0-1_aarch64.deb
+Size: 5790116
+SHA256: d78aa9b1b1e2396be624322aca689a6a8c4ab7cf5a6123ee23520505f5ddd899
 
 Package: nodejs-current
 Architecture: aarch64
@@ -5649,6 +5839,18 @@ Package: nodejs-dev
 Architecture: aarch64
 Installed-Size: 684
 Maintainer: Fredrik Fornwall @fornwall
+Version: 6.11.3-1
+Description: Development files for nodejs
+Homepage: https://nodejs.org/
+Depends: nodejs
+Filename: dists/termux/extras/binary-aarch64/nodejs-dev_6.11.3-1_aarch64.deb
+Size: 101416
+SHA256: db38d039c323ea1bc52282bab791139cdc98b4678b7e078c525322be55bb9276
+
+Package: nodejs-dev
+Architecture: aarch64
+Installed-Size: 684
+Maintainer: Fredrik Fornwall @fornwall
 Version: 6.11.3
 Description: Development files for nodejs
 Homepage: https://nodejs.org/
@@ -5656,6 +5858,19 @@ Depends: nodejs
 Filename: dists/termux/extras/binary-aarch64/nodejs-dev_6.11.3_aarch64.deb
 Size: 101400
 SHA256: 6d645c8c2743e6754de63146a9d80a8ec64a2b5984841a37e1526eccd6e5d456
+
+Package: nodejs
+Architecture: aarch64
+Installed-Size: 30008
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.11.3-1
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: https://nodejs.org/
+Depends: openssl, c-ares
+Conflicts: nodejs-current
+Filename: dists/termux/extras/binary-aarch64/nodejs_6.11.3-1_aarch64.deb
+Size: 4128836
+SHA256: f52e07f1dbefdee9b0a07c854ca1920de4756daf058a6966069d7205c36cec7a
 
 Package: nodejs
 Architecture: aarch64
@@ -5821,6 +6036,18 @@ Depends: libandroid-support, ldns, openssl, libedit, libutil
 Filename: dists/termux/extras/binary-aarch64/openssh_7.5p1-5_aarch64.deb
 Size: 490804
 SHA256: 1644fa182af5d9a1cee830021893ba26e14f3a43d122d36bca5eb3766fd162b9
+
+Package: openssh
+Architecture: aarch64
+Installed-Size: 3828
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.5p1-7
+Description: Secure shell for logging into a remote machine
+Homepage: https://www.openssh.com/
+Depends: libandroid-support, ldns, openssl, libedit, libutil
+Filename: dists/termux/extras/binary-aarch64/openssh_7.5p1-7_aarch64.deb
+Size: 439600
+SHA256: f45623bc27671758e99585f0f8e572c9d0a7f0cb92213224a1ec4424aebb2023
 
 Package: openssl-dev
 Architecture: aarch64
@@ -6212,6 +6439,18 @@ SHA256: dedd535e8ea1f206a441f0391a2f1506e94b16cfc4aa07234c82c0568606ffa6
 Package: procps-dev
 Architecture: aarch64
 Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.12-1
+Description: Development files for procps
+Homepage: https://packages.debian.org/sid/procps
+Depends: procps
+Filename: dists/termux/extras/binary-aarch64/procps-dev_3.3.12-1_aarch64.deb
+Size: 11992
+SHA256: fa2209720bcee89e31ed06244871123b3a8cd5b441272a9ce68f27482b9aed5c
+
+Package: procps-dev
+Architecture: aarch64
+Installed-Size: 132
 Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
 Version: 3.3.12
 Description: Development files for procps
@@ -6220,6 +6459,18 @@ Depends: procps
 Filename: dists/termux/extras/binary-aarch64/procps-dev_3.3.12_aarch64.deb
 Size: 11964
 SHA256: 1038b41a6562f70968db249637b22cbe1211b1f1cc6d7ed1dea56464b6a4cb95
+
+Package: procps
+Architecture: aarch64
+Installed-Size: 752
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.12-1
+Description: Utilities that give information about processes using the /proc filesystem
+Homepage: https://packages.debian.org/sid/procps
+Depends: ncurses
+Filename: dists/termux/extras/binary-aarch64/procps_3.3.12-1_aarch64.deb
+Size: 163284
+SHA256: bb85cb1902d7ab96816025ac53cbb47bc46d51c6dfdde68ff619a6655b1104fd
 
 Package: procps
 Architecture: aarch64
@@ -6280,6 +6531,18 @@ Depends: libprotobuf
 Filename: dists/termux/extras/binary-aarch64/protobuf_3.3.2-2_aarch64.deb
 Size: 490320
 SHA256: b4be0bec206e9b289491653aa1e8532ff4eae253b4604b1e414f548f5cc57216
+
+Package: protobuf
+Architecture: aarch64
+Installed-Size: 2584
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.4.1
+Description: Compiler for protocol buffer definition files
+Homepage: https://github.com/google/protobuf
+Depends: libprotobuf
+Filename: dists/termux/extras/binary-aarch64/protobuf_3.4.1_aarch64.deb
+Size: 481004
+SHA256: 153e7449a7cebdb3995df2457a939cea27f859c370f5c34c2b580e09e8275f64
 
 Package: psmisc
 Architecture: aarch64
@@ -6351,6 +6614,30 @@ Filename: dists/termux/extras/binary-aarch64/python-dev_3.6.2-1_aarch64.deb
 Size: 115592
 SHA256: 89e860d942dedf44135fd3756a32aff5a7da2e36a5804094976f310d13b753a2
 
+Package: python-dev
+Architecture: aarch64
+Installed-Size: 800
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.2-2
+Description: Development files for python
+Homepage: https://python.org/
+Depends: python
+Filename: dists/termux/extras/binary-aarch64/python-dev_3.6.2-2_aarch64.deb
+Size: 115568
+SHA256: 459eb50881f48b4add7c288b68350955c9c7b1f7c957379aaae839394c03d4db
+
+Package: python2-dev
+Architecture: aarch64
+Installed-Size: 724
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.13-1
+Description: Development files for python2
+Homepage: http://python.org/
+Depends: python2
+Filename: dists/termux/extras/binary-aarch64/python2-dev_2.7.13-1_aarch64.deb
+Size: 102712
+SHA256: 72ce5f58476809e0ebf0165543ee2c5708d73fc9ab4c5500d55bc89b1cb31cc6
+
 Package: python2-dev
 Architecture: aarch64
 Installed-Size: 724
@@ -6362,6 +6649,18 @@ Depends: python2
 Filename: dists/termux/extras/binary-aarch64/python2-dev_2.7.13_aarch64.deb
 Size: 102792
 SHA256: 2f40538c4af27e6e0407afe45fe1edadb4b1a9b28ca8a681820da7e5e837c8bf
+
+Package: python2
+Architecture: aarch64
+Installed-Size: 35196
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.13-1
+Description: Python 2 programming language intended to enable clear programs
+Homepage: http://python.org/
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libutil, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt
+Filename: dists/termux/extras/binary-aarch64/python2_2.7.13-1_aarch64.deb
+Size: 6888592
+SHA256: b24737eb9a965740da1043dbf1244efea7a96de94f3e1fc6112453e94b83c2ac
 
 Package: python2
 Architecture: aarch64
@@ -6386,6 +6685,18 @@ Depends: libandroid-support, ncurses, readline, libffi, openssl, libutil, libbz2
 Filename: dists/termux/extras/binary-aarch64/python_3.6.2-1_aarch64.deb
 Size: 5637816
 SHA256: d65a7f48e94f30b2dcfb8a0625c22eb2b7cac0fe0ab8b3f3dde3c04b74e452ec
+
+Package: python
+Architecture: aarch64
+Installed-Size: 22980
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.2-2
+Description: Python 3 programming language intended to enable clear programs
+Homepage: https://python.org/
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libutil, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, liblzma
+Filename: dists/termux/extras/binary-aarch64/python_3.6.2-2_aarch64.deb
+Size: 5605216
+SHA256: 1641fd28b358c546ca037d9e31f109d78a2f0fb463634d026d5808c457e5597b
 
 Package: qalc-dev
 Architecture: aarch64
@@ -6602,6 +6913,18 @@ Package: ruby-dev
 Architecture: aarch64
 Installed-Size: 360
 Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.2-1
+Description: Development files for ruby
+Homepage: https://www.ruby-lang.org/
+Depends: ruby
+Filename: dists/termux/extras/binary-aarch64/ruby-dev_2.4.2-1_aarch64.deb
+Size: 48004
+SHA256: 7cc120129b2f01cc9539075b69e2c7600e5cd0ba1259bf5ee6a6093bfec1575c
+
+Package: ruby-dev
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: Fredrik Fornwall @fornwall
 Version: 2.4.2
 Description: Development files for ruby
 Homepage: https://www.ruby-lang.org/
@@ -6609,6 +6932,18 @@ Depends: ruby
 Filename: dists/termux/extras/binary-aarch64/ruby-dev_2.4.2_aarch64.deb
 Size: 48028
 SHA256: b197bd73729261fdfa6b457cec6185e40c20283f8670ea8698f8b21275ea8211
+
+Package: ruby
+Architecture: aarch64
+Installed-Size: 17604
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.4.2-1
+Description: Dynamic programming language with a focus on simplicity and productivity
+Homepage: https://www.ruby-lang.org/
+Depends: libandroid-support, libffi, libgmp, readline, openssl, libutil, libyaml
+Filename: dists/termux/extras/binary-aarch64/ruby_2.4.2-1_aarch64.deb
+Size: 3267660
+SHA256: b2b26d902d702fe9fcb479c565d79acf1db30627bde309b569f5a02def632ce5
 
 Package: ruby
 Architecture: aarch64
@@ -7011,6 +7346,17 @@ Filename: dists/termux/extras/binary-aarch64/termux-elf-cleaner_1.1-1_aarch64.de
 Size: 3568
 SHA256: 9445e5288e885a4f6f8e9ef6699e5b276ecd9ecc247c11895b6387efdb1361c4
 
+Package: termux-exec
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2
+Description: An execve() wrapper to make /bin and /usr/bin shebangs work
+Homepage: https://github.com/termux/termux-exec
+Filename: dists/termux/extras/binary-aarch64/termux-exec_0.2_aarch64.deb
+Size: 2296
+SHA256: 1d68d41b72f1d4278bab7fc2464fa4fb3ed8752ef8b3764c9fb2e6b7479cc76e
+
 Package: teseq
 Architecture: aarch64
 Installed-Size: 132
@@ -7395,6 +7741,19 @@ Filename: dists/termux/extras/binary-aarch64/vim-python_8.0.1092_aarch64.deb
 Size: 791868
 SHA256: a0195a207dd32e1538498310b9cd9af9543be5bb15879eb2f8ceb819381475fb
 
+Package: vim-python
+Architecture: aarch64
+Installed-Size: 2096
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.1112
+Description: Vi IMproved - enhanced vi editor - with python support
+Homepage: http://www.vim.org/
+Depends: ncurses, vim-runtime, python
+Conflicts: vim
+Filename: dists/termux/extras/binary-aarch64/vim-python_8.0.1112_aarch64.deb
+Size: 793344
+SHA256: 1fa4444afded114ea2aede0fe74f2c752594d86c8469b825b837b2726e647276
+
 Package: vim
 Architecture: aarch64
 Installed-Size: 2028
@@ -7407,6 +7766,19 @@ Conflicts: vim-python
 Filename: dists/termux/extras/binary-aarch64/vim_8.0.1092_aarch64.deb
 Size: 772252
 SHA256: 12c9ac11e442a53c5accef83616d40c1511131b3ec41261f3f376e0343ed1818
+
+Package: vim
+Architecture: aarch64
+Installed-Size: 2028
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.0.1112
+Description: Vi IMproved - enhanced vi editor
+Homepage: http://www.vim.org/
+Depends: ncurses, vim-runtime
+Conflicts: vim-python
+Filename: dists/termux/extras/binary-aarch64/vim_8.0.1112_aarch64.deb
+Size: 773400
+SHA256: bff3e07aee678a282269f5ee3a8a7b0f239ca969b94647bc3980ff8519574859
 
 Package: vorbis-tools
 Architecture: aarch64
