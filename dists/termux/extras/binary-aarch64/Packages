@@ -521,6 +521,18 @@ Filename: dists/termux/extras/binary-aarch64/cmake-curses-gui_3.9.2_aarch64.deb
 Size: 950936
 SHA256: 6e68371d5a0b6b9f24019eccf1ef9f1c043ac2a0671ca4a02cb2a82201866d69
 
+Package: cmake-curses-gui
+Architecture: aarch64
+Installed-Size: 3648
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.9.3
+Description: Curses based user interface for CMake (ccmake)
+Homepage: https://cmake.org/
+Depends: cmake, ncurses-ui-libs
+Filename: dists/termux/extras/binary-aarch64/cmake-curses-gui_3.9.3_aarch64.deb
+Size: 951264
+SHA256: 92fa4438ac1ebfc7b5334c2594986e126016fba73cffb72fd80d9d94969e6bda
+
 Package: cmake
 Architecture: aarch64
 Installed-Size: 24612
@@ -532,6 +544,18 @@ Depends: libarchive, libcurl, libexpat, jsoncpp, libuv, librhash, make, clang
 Filename: dists/termux/extras/binary-aarch64/cmake_3.9.2_aarch64.deb
 Size: 2989392
 SHA256: 87b2790d66711e46eed86361eb322bbc472dad8cfe6d4b3c09d49c3d9971c2c3
+
+Package: cmake
+Architecture: aarch64
+Installed-Size: 24612
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.9.3
+Description: Family of tools designed to build, test and package software
+Homepage: https://cmake.org/
+Depends: libarchive, libcurl, libexpat, jsoncpp, libuv, librhash, make, clang
+Filename: dists/termux/extras/binary-aarch64/cmake_3.9.3_aarch64.deb
+Size: 2987556
+SHA256: a70d9dda7c4a361b634adc46184321bf83e5915740b4203754b7d38c95fe7c5e
 
 Package: cmark-dev
 Architecture: aarch64
@@ -856,6 +880,18 @@ Depends: gnupg2, libgnutls, resolv-conf
 Filename: dists/termux/extras/binary-aarch64/dirmngr_2.2.0_aarch64.deb
 Size: 161380
 SHA256: d226457807262afd1c7b6a73e25d071954a663f1ec1d31901050b0cc1d231574
+
+Package: dirmngr
+Architecture: aarch64
+Installed-Size: 528
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.1
+Description: Server for managing certificate revocation lists
+Homepage: https://www.gnupg.org/
+Depends: gnupg2, libgnutls, resolv-conf
+Filename: dists/termux/extras/binary-aarch64/dirmngr_2.2.1_aarch64.deb
+Size: 161892
+SHA256: 52ce1f66a8c8ed07c348f3309ce2cf6a9453138d93b2f7012fe98259d9146ca9
 
 Package: dnsutils-dev
 Architecture: aarch64
@@ -1298,6 +1334,18 @@ Filename: dists/termux/extras/binary-aarch64/freetype-dev_2.8-1_aarch64.deb
 Size: 143384
 SHA256: 9c03677f0f0db82699850de133eaa80093df77189a53c54b56c45a71bd7d95f2
 
+Package: freetype-dev
+Architecture: aarch64
+Installed-Size: 1396
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.8.1
+Description: Development files for freetype
+Homepage: https://www.freetype.org
+Depends: freetype
+Filename: dists/termux/extras/binary-aarch64/freetype-dev_2.8.1_aarch64.deb
+Size: 144064
+SHA256: 272e78ce1042dbca8d5b0735dcad7dd3dada52d9a008b887befe073b03e5c34c
+
 Package: freetype
 Architecture: aarch64
 Installed-Size: 544
@@ -1309,6 +1357,18 @@ Depends: libbz2, libpng
 Filename: dists/termux/extras/binary-aarch64/freetype_2.8-1_aarch64.deb
 Size: 223192
 SHA256: 75e7b90c6cacdc4dae835326193b61130dda770e49f9f0ad9fbc9f9760fc4c83
+
+Package: freetype
+Architecture: aarch64
+Installed-Size: 532
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.8.1
+Description: Software font engine capable of producing high-quality output
+Homepage: https://www.freetype.org
+Depends: libbz2, libpng
+Filename: dists/termux/extras/binary-aarch64/freetype_2.8.1_aarch64.deb
+Size: 217424
+SHA256: 3bfc0e7f72672bd93c2555e4e431654c7a10eec9e517bec47b30f22dd48be696
 
 Package: frobtads
 Architecture: aarch64
@@ -1714,6 +1774,18 @@ Filename: dists/termux/extras/binary-aarch64/gnupg2_2.2.0_aarch64.deb
 Size: 777332
 SHA256: 6454f9b4fdd18d10a6eefdae439371875ab1aa7c31165cd66b1f9af52f973343
 
+Package: gnupg2
+Architecture: aarch64
+Installed-Size: 3524
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.1
+Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
+Homepage: https://www.gnupg.org/
+Depends: libassuan,libbz2,libgcrypt,libksba,libnpth,readline,pinentry,libgpg-error
+Filename: dists/termux/extras/binary-aarch64/gnupg2_2.2.1_aarch64.deb
+Size: 779604
+SHA256: cfd3afd6c2a1952d3469ca1baf2c445a8a2cb2950f2f726ca441c71d08da2385
+
 Package: gnupg
 Architecture: aarch64
 Installed-Size: 1084
@@ -2022,6 +2094,17 @@ Filename: dists/termux/extras/binary-aarch64/harfbuzz_1.5.1_aarch64.deb
 Size: 133132
 SHA256: cecffcf0c025ad2cd4b027ce0c6965bb70252e68950cfbcb9e4d18b95e6d4e31
 
+Package: hashdeep
+Architecture: aarch64
+Installed-Size: 1548
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.4
+Description: Programs to compute hashsums of arbitrary number of files recursively
+Homepage: http://md5deep.sourceforge.net/
+Filename: dists/termux/extras/binary-aarch64/hashdeep_4.4_aarch64.deb
+Size: 91480
+SHA256: 9feea62775e3f98b105dd6af886c8c3ea7699091e2d28d58a0755a574ade93ea
+
 Package: hexcurse
 Architecture: aarch64
 Installed-Size: 80
@@ -2033,6 +2116,17 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-aarch64/hexcurse_1.60.0-2_aarch64.deb
 Size: 15544
 SHA256: 0c418f5ad00a18461749beb51925c186442086b31c58ed572c4ca216a2479122
+
+Package: heyu
+Architecture: aarch64
+Installed-Size: 1044
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.11-rc2-0
+Description: A text-based console program for remotely controlling lights and appliances in the home or office
+Homepage: http://www.heyu.org/
+Filename: dists/termux/extras/binary-aarch64/heyu_2.11-rc2-0_aarch64.deb
+Size: 303732
+SHA256: 87b610144bc08fbe79a74c1bcee87921e653996035f132ee169723f4905ced1f
 
 Package: hfsutils
 Architecture: aarch64
@@ -2425,6 +2519,19 @@ Filename: dists/termux/extras/binary-aarch64/jupp_3.1jupp30_aarch64.deb
 Size: 148604
 SHA256: 72d7658181c535c773430fcabf60d5bf67fa065393aef3f3b310aa87a07356ab
 
+Package: jupp
+Architecture: aarch64
+Installed-Size: 716
+Maintainer: Dominik George @Natureshadow
+Version: 3.1jupp31
+Description: User friendly full screen text editor
+Homepage: https://www.mirbsd.org/jupp.htm
+Depends: ncurses, libutil
+Conflicts: joe
+Filename: dists/termux/extras/binary-aarch64/jupp_3.1jupp31_aarch64.deb
+Size: 145704
+SHA256: 8fdf72515c82634699dad4ec92c88fa261c31d7733e97b5e3c303a605445ab0b
+
 Package: kona
 Architecture: aarch64
 Installed-Size: 224
@@ -2544,6 +2651,29 @@ Filename: dists/termux/extras/binary-aarch64/less_487_aarch64.deb
 Size: 74512
 SHA256: 3cf64348dfcf72b154e20775ddb5557c23e66e2373efcbf604a1011feb4f2d4d
 
+Package: leveldb-dev
+Architecture: aarch64
+Installed-Size: 116
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.20
+Description: Development files for leveldb
+Homepage: https://github.com/google/leveldb
+Depends: leveldb
+Filename: dists/termux/extras/binary-aarch64/leveldb-dev_1.20_aarch64.deb
+Size: 16856
+SHA256: 45b3ca583ff52fd85ad6d6187d729c7024bb4cc76ad2b0f56453346a7c25de91
+
+Package: leveldb
+Architecture: aarch64
+Installed-Size: 400
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.20
+Description: Fast key-value storage library
+Homepage: https://github.com/google/leveldb
+Filename: dists/termux/extras/binary-aarch64/leveldb_1.20_aarch64.deb
+Size: 115188
+SHA256: f5d0510fee430cb4740f74a1bffe5940c1edb7f2da5708c477e825ed82add1cd
+
 Package: lftp
 Architecture: aarch64
 Installed-Size: 1384
@@ -2555,6 +2685,18 @@ Depends: libexpat, openssl, readline, libutil, libidn
 Filename: dists/termux/extras/binary-aarch64/lftp_4.8.0-3_aarch64.deb
 Size: 424476
 SHA256: 5a2968562dadebddb667d37fc67818d9002e39b7bc93b86ba74119a60d51b2c4
+
+Package: lftp
+Architecture: aarch64
+Installed-Size: 1392
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.8.1
+Description: FTP/HTTP client and file transfer program
+Homepage: https://lftp.tech/
+Depends: libexpat, openssl, readline, libutil, libidn
+Filename: dists/termux/extras/binary-aarch64/lftp_4.8.1_aarch64.deb
+Size: 425244
+SHA256: 825bc130aa6439c4705db41598a189f875ce8a2813edf24feedf87208231b18b
 
 Package: libandroid-glob-dev
 Architecture: aarch64
@@ -4477,6 +4619,18 @@ Filename: dists/termux/extras/binary-aarch64/libsodium-dev_1.0.13_aarch64.deb
 Size: 12732
 SHA256: 4f060d92f8758effe630c26e83b724f12badf55fe1fb4d7d58d1ce768888d27b
 
+Package: libsodium-dev
+Architecture: aarch64
+Installed-Size: 324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.14
+Description: Development files for libsodium
+Homepage: https://libsodium.org/
+Depends: libsodium
+Filename: dists/termux/extras/binary-aarch64/libsodium-dev_1.0.14_aarch64.deb
+Size: 14564
+SHA256: 36e7a3ffe7bb7864ac8f81b75f89aec19856112b6646dc5b9e28a0de0b94a5a3
+
 Package: libsodium
 Architecture: aarch64
 Installed-Size: 284
@@ -4487,6 +4641,17 @@ Homepage: https://libsodium.org/
 Filename: dists/termux/extras/binary-aarch64/libsodium_1.0.13_aarch64.deb
 Size: 88988
 SHA256: d4a6d9b10e68614576cf0409c6ee5bb16f5a939134854ec6b964309659f0ada2
+
+Package: libsodium
+Architecture: aarch64
+Installed-Size: 292
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.14
+Description: Network communication, cryptography and signaturing library
+Homepage: https://libsodium.org/
+Filename: dists/termux/extras/binary-aarch64/libsodium_1.0.14_aarch64.deb
+Size: 90420
+SHA256: 179d6462beb8f93d63bec88332302a7a645c33a28d44c0dc7028074ea6546989
 
 Package: libsoup-dev
 Architecture: aarch64
@@ -5391,6 +5556,18 @@ Filename: dists/termux/extras/binary-aarch64/mlocate_0.26-1_aarch64.deb
 Size: 32028
 SHA256: a9896228633e02c761837cd695156adb2667b4e02b77f0a5293b6947cf105585
 
+Package: mlocate
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.26-3
+Description: Tool to find files anywhere in the filesystem based on their name
+Homepage: https://pagure.io/mlocate
+Depends: libandroid-support
+Filename: dists/termux/extras/binary-aarch64/mlocate_0.26-3_aarch64.deb
+Size: 32184
+SHA256: e38524d6445e64a4434f74db3aa34590ae6e9a5ec02375fe5f99db960727bb6d
+
 Package: moon-buggy
 Architecture: aarch64
 Installed-Size: 124
@@ -6049,6 +6226,18 @@ Filename: dists/termux/extras/binary-aarch64/openssh_7.5p1-7_aarch64.deb
 Size: 439600
 SHA256: f45623bc27671758e99585f0f8e572c9d0a7f0cb92213224a1ec4424aebb2023
 
+Package: openssh
+Architecture: aarch64
+Installed-Size: 4112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.5p1-8
+Description: Secure shell for logging into a remote machine
+Homepage: https://www.openssh.com/
+Depends: libandroid-support, ldns, openssl, libedit, libutil
+Filename: dists/termux/extras/binary-aarch64/openssh_7.5p1-8_aarch64.deb
+Size: 489940
+SHA256: 0439bb32487ab1648479fec5e74b81c4bcebd2179d1c5bafaf857829594ed6d7
+
 Package: openssl-dev
 Architecture: aarch64
 Installed-Size: 1892
@@ -6317,6 +6506,18 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-aarch64/pick_1.8.0_aarch64.deb
 Size: 8240
 SHA256: 14010b74519dfb9645c1f50323716f134f2dbfdfbd2df22a9bd0ae884b623079
+
+Package: pick
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.9.0
+Description: Utility to choose one option from a set of choices with fuzzy search functionality
+Homepage: https://github.com/calleerlandsson/pick
+Depends: ncurses
+Filename: dists/termux/extras/binary-aarch64/pick_1.9.0_aarch64.deb
+Size: 8652
+SHA256: 65aba6553b0638907ff724500b11fa72b8fc4ff1cae038945a2159cc99f29ec9
 
 Package: picolisp
 Architecture: aarch64
@@ -6825,6 +7026,17 @@ Homepage: https://redis.io/
 Filename: dists/termux/extras/binary-aarch64/redis_4.0.1_aarch64.deb
 Size: 342396
 SHA256: 589663ab150cf94823bd58b0e8efbc2eb5d21c301af03d703f5e3ab7a22bfccc
+
+Package: redis
+Architecture: aarch64
+Installed-Size: 2656
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.0.2
+Description: In-memory data structure store used as a database, cache and message broker
+Homepage: https://redis.io/
+Filename: dists/termux/extras/binary-aarch64/redis_4.0.2_aarch64.deb
+Size: 342384
+SHA256: 6a9a9c670bb664fb5b45a43664e5b3759c3d261f9e96e7a422bdb58712b748ad
 
 Package: remind
 Architecture: aarch64
@@ -7528,6 +7740,18 @@ Filename: dists/termux/extras/binary-aarch64/tor_0.3.0.10_aarch64.deb
 Size: 1598088
 SHA256: d5ecd174c384773a10243cba948d9c2f690fa29257f3b9550df32f0af22a0a08
 
+Package: tor
+Architecture: aarch64
+Installed-Size: 9108
+Maintainer: Vishal Biswas @vishalbiswas
+Version: 0.3.1.7
+Description: The Onion Router anonymizing overlay network
+Homepage: https://www.torproject.org
+Depends: libevent, openssl, liblzma
+Filename: dists/termux/extras/binary-aarch64/tor_0.3.1.7_aarch64.deb
+Size: 1620656
+SHA256: e7e5071132bc23a0bc9629845f183da240c4f900319d10d64815a1c6750a9b76
+
 Package: torsocks
 Architecture: aarch64
 Installed-Size: 172
@@ -7576,6 +7800,17 @@ Filename: dists/termux/extras/binary-aarch64/tree_1.7.0-2_aarch64.deb
 Size: 24576
 SHA256: 44a37159876f3840f970c5ad4b9797675834d0bc6fd13559c276542e5c8bfb38
 
+Package: tsocks
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 1.8beta5
+Description: transparent network access through a SOCKS 4 or 5 proxy
+Homepage: http://tsocks.sf.net
+Filename: dists/termux/extras/binary-aarch64/tsocks_1.8beta5_aarch64.deb
+Size: 16864
+SHA256: 924cda1811f4eeaa3b5408263a3e6522d28d0536132338c3a47cd58b791cc070
+
 Package: tty-clock
 Architecture: aarch64
 Installed-Size: 64
@@ -7587,6 +7822,18 @@ Depends: ncurses
 Filename: dists/termux/extras/binary-aarch64/tty-clock_2.3_aarch64.deb
 Size: 7376
 SHA256: 1c7d1413ee04092c6de592bfb7244090c60826126b5144a2316166a0be963c95
+
+Package: tty-solitaire
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.0
+Description: Klondike solitaire game
+Homepage: https://github.com/mpereira/tty-solitaire
+Depends: ncurses
+Filename: dists/termux/extras/binary-aarch64/tty-solitaire_1.0.0_aarch64.deb
+Size: 7052
+SHA256: 988ce2efd3a5763a757ac21d51106e144c333368bbf04757afd9b1c31b10e42b
 
 Package: ttyrec
 Architecture: aarch64
